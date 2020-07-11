@@ -1,0 +1,60 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(img/01.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: red;
+    font-size: 48px;
+    position: fixed;
+    z-index: 2;
+}
+.content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: green;
+    height: auto;
+    padding-top:110px;
+}
+.menu{
+    padding-top: 60px;
+    width: 100%;
+    background-color: blue;
+    justify-content: center;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 1;
+    height: 54;
+}
+.menu>a>button{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background-color:blue ;
+    border: none;
+    border-bottom: rgb(250, 94, 94);
+    border-bottom-width: 4px;
+    border-bottom-style: outset;
+    width: +10%;
+    transition-duration: 0.6;
+}
+.menu>a>button:hover{
+    border-bottom-color: rgb(255, 0, 0);
+    border-bottom-width: 8px;
+    cursor: pointer;
+    animation-duration: 0.6;
+    transition-duration: 0.4s;
+}
+    
